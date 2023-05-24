@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hamna's Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/hybi-inflator@1.1.0/dist/index.min.js"></script>
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/img/avatar.png"
+              alt="Hamna Ahmad Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub"> &lt; hamna ahmad / &gt;</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+            
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">I am Hamna</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Frontend Software Engineer
+          </p>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/hamna-ahmad-6972a415a/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/img/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+          <span class="text">LinkedIn</span>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/Hamna-Ahmad" class="home-hero__social-icon-link">
+            <img
+              src="./assets/img/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+          <span class="text">Github</span>
+        </div>
+        <div class="home-hero__social">
+          <a href="mailto:official.hamna.ahmad@gmail.com" class="home-hero__social-icon-link">
+            <img
+              src="./assets/img/email-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+          <span class="text">Email</span>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="tel:0430156071"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/img/phone-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+          <span class="text">Call</span>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    
+    
+        <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            These showcased projects represent some of my best work, while the rest of my portfolio can be explored on my <a class="bold" href="https://github.com/Hamna-Ahmad" target="_blank" >GitHub</a> page. Click the button to learn more about each one.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="../../assets/img/quiz.gif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Quiz App</h3>
+              <p class="projects__row-content-desc">
+                Quizzical is a simple quiz app that allows users to challenge themselves by answering trivia questions and earn points for each correct answer. Built with<strong> HTML, CSS, Javascript, API and functional React components</strong>.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Movie-watchlist.webp"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Movie Watchlist</h3>
+              <p class="projects__row-content-desc">
+                This web app allows users to search for movie titles by using an API to pull data and display the results. Users can also add films to their personal watchlist, which is saved in their local storage for easy access later on. Built with<strong> HTML, CSS, JavaScript and OMDB API</strong>.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/colour.webp"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Color Palette Generator</h3>
+              <p class="projects__row-content-desc">
+                An app that generates a colour palette based on the users color picked. Built with <strong> HTML, CSS, vanilla JavaScript and an open source API.</strong>
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <p>A self-taught frontend developer with a passion for crafting user-friendly websites. With a focus on clean code and continuous learning, I enjoy translating design concepts into visually appealing and functional digital experiences.
+            </p>
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                With a Bachelor's degree in Medical Science from UTS and an exciting transition to the world of IT, I am enthusiastic about pursuing a career as a frontend software engineer. <br><br> When not immersed in coding, I'm out exploring the world on my bike, chasing adrenaline-fueled adventures, or indulging in the thrill of building IKEA furniture, transforming flatpack challenges into functional works of art.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Semantic HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">JSON</div>
+              <div class="skills__skill">VS Code</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">Responsive Web Design</div>
+              <div class="skills__skill">Problem solving</div>
+              <div class="skills__skill">Troubleshooting</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt contact-sec__main">Let's work together...</span>
+          <span class="heading-sec__sub heading-sec__sub--lt contact-sec__sub">
+            There can be no center in infinity... <br> but I sure can center a <span class="italics">&lt; div &gt;</span>
+          </span>
+          <div class="main-footer__row main-footer__row-1">
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/hamna-ahmad-6972a415a/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Hamna-Ahmad">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              
+              <a target="_blank" rel="noreferrer" href="mailto:official.hamna.ahmad@gmail.com">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/email-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="tel:0430156071">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/img/phone-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+        </h2>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class=" heading-sm text-lt">&copy; Hamna Ahmad 2023</h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
