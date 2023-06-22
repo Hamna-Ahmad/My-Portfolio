@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -13,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -115,10 +117,11 @@
               src="../../assets/img/quiz.gif"
               alt="Project Image"
               class="project-details__showcase-img"
+              data-aos="fade-up" data-aos-anchor-placement="top-bottom"
             />
           </div>
           <div class="project-details__content-main">
-            <div class="project-details__desc">
+            <div class="project-details__desc" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
                 Quizzical is a simple quiz app built with functional React components that allows users to challenge themselves by answering trivia questions and earn points for each correct answer.
@@ -132,7 +135,7 @@
                 <li>Allows users to play again and reset the quiz</li>
               </ul>
             </div>
-            <div class="project-details__tools-used">
+            <div class="project-details__tools-used" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
                 <div class="skills__skill">HTML5</div>
@@ -186,12 +189,13 @@
 
         <div class="main-footer__lower">
           &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href=""
+          <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/hamna-ahmad-6972a415a/"
             >Hamna Ahmad</a
           >
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>

@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -112,10 +113,11 @@
               src="./assets/img/Movie-watchlist.webp"
               alt="Project Image"
               class="project-details__showcase-img"
+              data-aos="fade-up" data-aos-anchor-placement="top-bottom"
             />
           </div>
           <div class="project-details__content-main">
-            <div class="project-details__desc">
+            <div class="project-details__desc" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
                 This is a simple Movie Watchlist app that allows users to search for movies and add them to their watchlist. The app uses the OMDB API to fetch movie data and provides features such as displaying movie information, adding movies to the watchlist, and removing movies from the watchlist.
@@ -129,7 +131,7 @@
                 <li>Store the watchlist in the browser's local storage for persistent data.</li>
               </ul>
             </div>
-            <div class="project-details__tools-used">
+            <div class="project-details__tools-used" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
                 <div class="skills__skill">HTML</div>
@@ -184,12 +186,13 @@
 
         <div class="main-footer__lower">
           &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href=""
+          <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/hamna-ahmad-6972a415a/"
             >Hamna Ahmad</a
           >
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>

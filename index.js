@@ -37,3 +37,9 @@ headerLogoContainer.addEventListener('click', () => {
   location.href = 'index.html'
 })
 
+AOS.init({
+  duration: 900,
+  easing: 'ease-in-out',
+  offset: 120,
+  once: false
+});
