@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    
     <meta name="description" content="Portfolio" />
-
     <link rel="stylesheet" href="css/style.css" />
     <!-- Source Sans Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +15,8 @@
     <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/hybi-inflator@1.1.0/dist/index.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Hamna's Portfolio</title>
   </head>
   <body>
@@ -150,11 +150,12 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Projects</span>
           <span class="heading-sec__sub" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            These showcased projects represent some of my best work, while the rest of my portfolio can be explored on my <a class="bold" href="https://github.com/Hamna-Ahmad" target="_blank" >GitHub</a> page. Click the button to learn more about each one.
+            These showcased projects represent some of my best work, while the rest of my portfolio can be explored on my <a class="bold" href="https://github.com/Hamna-Ahmad" target="_blank" >GitHub</a> page.
           </span>
         </h2>
 
         <div class="projects__content">
+          <!-- Quizzical App -->
           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="projects__row-img-cont">
               <img
@@ -165,17 +166,35 @@
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Quiz App</h3>
+              <h3 class="projects__row-content-title">Quizzical App</h3>
               <p class="projects__row-content-desc">
-                Quizzical is a simple quiz app that allows users to challenge themselves by answering trivia questions and earn points for each correct answer. Built with<strong> HTML, CSS, Javascript, API and functional React components</strong>.
+                A simple quiz app that allows users to challenge themselves by answering trivia questions. 
               </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-react" style="color: #982bf0;"></i>
+                <img class="api-icon" src="./assets/img/api.png" alt="api logo">
+                
+              </div>
+            </div>
+            <div class="project-details__links">
               <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                >Learn more</a
+                href="https://hamnas-quizzical-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Quizzical-App"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
               >
             </div>
           </div>
+          <!-- Movie Watchlist App -->
           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="projects__row-img-cont">
               <img
@@ -186,35 +205,1132 @@
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Movie Watchlist</h3>
+              <h3 class="projects__row-content-title">Movie Watchlist App</h3>
               <p class="projects__row-content-desc">
-                This web app allows users to search for movie titles by using an API to pull data and display the results. Users can also add films to their personal watchlist, which is saved in their local storage for easy access later on. Built with<strong> HTML, CSS, JavaScript and OMDB API</strong>.
+                An app that lets users search for movies using an API and add them to a personal watchlist for later viewing.
               </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <img class="api-icon" src="./assets/img/api.png" alt="api logo">
+              </div>
+            </div>
+            <div class="project-details__links">
               <a
-                href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                >Learn more</a
+                href="https://hamnas-movie-watchlist.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Movie-Watchlist"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
               >
             </div>
           </div>
+          <!-- Colour Palette Generator App -->
           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/img/colour.webp"
+                src="./assets/img/colour.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Color Palette Generator</h3>
+              <h3 class="projects__row-content-title">Colour Palette Generator App</h3>
               <p class="projects__row-content-desc">
-                An app that generates a colour palette based on the users color picked. Built with <strong> HTML, CSS, vanilla JavaScript and an open source API.</strong>
+                An app that generates a colour palette based on the users color picked.
               </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <img class="api-icon" src="./assets/img/api.png" alt="api logo">
+              </div>
+            </div>
+            <div class="project-details__links">
               <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                >Learn more</a
+                href="https://hamnas-color-generator-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Color-generator"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Personal Dashboard Desktop App -->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/dashboard.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Personal Dashboard Desktop App</h3>
+              <p class="projects__row-content-desc">
+                An app that combines real-time data from APIs, including weather, background images and cryptocurrency information, in a single interface. 
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <img class="api-icon" src="./assets/img/api.png" alt="api logo">
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-dashboard.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Dashboard"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Learning Journal App -->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Learning-Journal.gif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Learning Journal App</h3>
+              <p class="projects__row-content-desc">
+                A responsive learning journal web application with a home page, blog page, and about me page. 
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-learning-journal.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/My-Learning-Journaldas"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Unit Converter App -->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/unit.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Unit Converter App </h3>
+              <p class="projects__row-content-desc">
+                A simple web application that allows you to convert between metric and imperial units.
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-color-generator-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Color-generator"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+           <!-- Tenzies Game App -->
+           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Tenzies.gif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tenzies Game App </h3>
+              <p class="projects__row-content-desc">
+                A simple dice game implemented as a React application.
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-react" style="color: #982bf0;"></i>
+
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-tenzies-game-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Tenzies-game"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Meme Generator App -->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/meme-generator.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Meme Generator App</h3>
+              <p class="projects__row-content-desc">
+                A simple Meme Generator app built with React.
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-react" style="color: #982bf0;"></i>
+
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-meme-generator.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Meme-Generator"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+           <!-- Travel Journal App-->
+           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/travel.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Travel Journal App</h3>
+              <p class="projects__row-content-desc">
+                A simple travel journal app built with React.
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-react" style="color: #982bf0;"></i>
+
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-travel-journal.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Travel-journal"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Digital Business Card-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/card.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Digital Business Card</h3>
+              <p class="projects__row-content-desc">
+                A simple React application that showcases a personal digital business card.
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-react" style="color: #982bf0;"></i>
+
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-digital-business-card.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Digital-Business-Card"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Add to Cart App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/cart.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Add to Cart App</h3>
+              <p class="projects__row-content-desc">
+                A simple web application that allows you to create a shopping list. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <span class="iconify" data-icon="simple-icons:firebase" style="color: #982bf0;" data-width="34"></span>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-add-to-cart-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Add-To-Cart-App"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- War Game App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/war.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">War Game App</h3>
+              <p class="projects__row-content-desc">
+                A war game app implemented in JavaScript.
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <img class="api-icon" src="./assets/img/api.png" alt="api logo">
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-war-game.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/War-game/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Bored Bot App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/bored.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Bored Bot App</h3>
+              <p class="projects__row-content-desc">
+                A simple web application that provides users with random activity suggestions.
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+                <img class="api-icon" src="./assets/img/api.png" alt="api logo">
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-bored-bot.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/BoredBot"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+           <!-- Tinder for Dogs App-->
+           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Tindog.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">TinDog App</h3>
+              <p class="projects__row-content-desc">
+                A tinder for dogs app built with JavaScript.
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-tinder-for-dogs.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Tinder-For-Dogs/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Tekken 5 Game App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/tekken.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tekken 5 Game App</h3>
+              <p class="projects__row-content-desc">
+                A web application inspired by the gameplay of Tekken 5, a popular fighting game.
+              </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-tekken-5-game.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Tekken-5-Game"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Restaurant Ordering App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/restaurant.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Restaurant Ordering App</h3>
+              <p class="projects__row-content-desc">
+                A web application that allows users to order food from Hamna's Burger Lab. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-restaurant-ordering-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Restaurant-ordering-app/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Twimba App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/twimba.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Twimba App</h3>
+              <p class="projects__row-content-desc">
+                A Twitter-inspired social media app that enables users to share thoughts,like and delete posts. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-twimba-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Twimba/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Meme Picker App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/meme-picker.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Meme Picker App</h3>
+              <p class="projects__row-content-desc">
+                A simple web app that allows you to select your current emotion and get a matching cat meme or image. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-meme-picker.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Meme-picker"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Oldagram App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/oldagram.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Oldagram App</h3>
+              <p class="projects__row-content-desc">
+                A mock social media app inspired by Instagram. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-oldagram.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Oldagram-page/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+           <!-- Emoji Generator App-->
+           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/emoji.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Emoji Generator App</h3>
+              <p class="projects__row-content-desc">
+                A simple emoji feelings game where users can choose up to four emojis to represent their feelings. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-emoji-generator.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Emoji-generator"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- MyLeads App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/myleads.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">MyLeads App</h3>
+              <p class="projects__row-content-desc">
+                A simple web application that allows users to save and manage website links for future reference.  </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://github.com/Hamna-Ahmad/Chrome-Extension/tree/main"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Chrome-Extension/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- BasketBall Scoreboard App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Scoreboard.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">BasketBall Scoreboard App</h3>
+              <p class="projects__row-content-desc">
+                A simple web application that allows users to keep track of scores for a home and away team.  </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-basketball-scoreboard-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/BasketBall-Scoreboard/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- BlackJack Game App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Blackjack.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">BlackJack Game App</h3>
+              <p class="projects__row-content-desc">
+                A simple web application that allows players to play a round of the popular card game, Blackjack. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamna-blackjack-game-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Blackjack-Game-Page/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Random Password Generator App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/password.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Random Password Generator App</h3>
+              <p class="projects__row-content-desc">
+                A simple web application that generates random passwords based on user-defined length. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-random-password-generator.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Random-Password-Generator/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Passenger Counter App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/counter.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Passenger Counter App</h3>
+              <p class="projects__row-content-desc">
+                A simple web application that allows you to keep track of the number of people who have entered a location. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-js" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-passenger-counter.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Passenger-Counter"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+           <!-- Creative Studio App-->
+           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/studio.gif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title"> Creative Studio App</h3>
+              <p class="projects__row-content-desc">
+                A web application that represents a studio or creative agency. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-creative-studio-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Creative-Studio-Page/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+           <!-- Paintify App-->
+           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Paintify.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Paintify App</h3>
+              <p class="projects__row-content-desc">
+                A mock web application that allows you to turn any picture into paintings. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-paintify-app.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Paintify-App/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Steamdeck Mockup App-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/steamdeck.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Steamdeck Mockup App</h3>
+              <p class="projects__row-content-desc">
+                A web application that showcases the Steam Deck, an all-in-one portable PC gaming device. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-steamdeck-mockup.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Steam-Deck-Mockup/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+           <!-- Interior Design App-->
+           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/interior.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Interior Design App</h3>
+              <p class="projects__row-content-desc">
+                A web application that showcases interior design services. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-interior-design-page.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Interior-Design-Page/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Technical Documentation Page-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/technical.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Technical Documentation Page</h3>
+              <p class="projects__row-content-desc">
+                A technical documentation page project that provides a guide on how to apply makeup like a pro. </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-technical-documentation-page.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Technical-Documentation-Page/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Product Landing Page -->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/product-landing.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Product Landing Page</h3>
+              <p class="projects__row-content-desc">
+                A product landing page project that showcases a flower wall rental service called "Bloom me Away." </p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-product-landing-page.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Product-Landing-Page/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+           <!-- Survey Form-->
+           <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/survey.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Survey Form</h3>
+              <p class="projects__row-content-desc">
+                A Survey Form web application that allows users to provide feedback on their manager's effectiveness.</p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-survey-form.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Survey-Form"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+          <!-- Tribute Page-->
+          <div class="projects__row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Tribute.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tribute Page</h3>
+              <p class="projects__row-content-desc">
+                A web application that showcases information about the late actor Heath Ledger.</p>
+              <div class="projects__row-skills">
+                <i class="fa-brands fa-html5" style="color: #982bf0;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #982bf0;"></i>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <a
+                href="https://hamnas-tribute-page.netlify.app/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="https://github.com/Hamna-Ahmad/Tribute-Page/tree/main"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
               >
             </div>
           </div>
@@ -257,6 +1373,7 @@
               <div class="skills__skill">Git</div>
               <div class="skills__skill">Figma</div>
               <div class="skills__skill">Responsive Web Design</div>
+              <div class="skills__skill">Firebase</div>
               <div class="skills__skill">Problem solving</div>
               <div class="skills__skill">Troubleshooting</div>
             </div>
@@ -318,6 +1435,7 @@
       </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
